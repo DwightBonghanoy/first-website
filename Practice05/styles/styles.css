@@ -1,0 +1,71 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  background: #a2e2ff;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bff {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+  background:#efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 20px 0 5px 0;
+}
+
+#bday-date {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 0;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  width: 400px;
+  height: 480px;
+  border: 6px solid white;
+  background-image: url("/styles/1665060419803.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  margin: 10px auto;
+}
+
+#gift-img-happy:hover {
+  background-image: url("/1665070003235.jpg");
+  background-size: contain;
+}
+
+#gift-img-hot:hover {
+  background-image: url("/1665056063075.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(14, 11, 12);
+}
